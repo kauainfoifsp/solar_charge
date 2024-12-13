@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>serviços</title>
+    <link rel="stylesheet" href="css/produto1.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>SolarCharge</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">inicio</a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="products">
+        <div class="container">
+            <h2>Nossas instalaçoes</h2>
+            <div class="product-list">
+                <div class="product-item">
+                    <img src="imagens/garagem.png" alt="Produto 1">
+                    <h3>Garagens pessoais</h3>
+                    <p class="description">Produto incrível para você!</p>
+                    <p class="price">R$ 2.000,90<br>und.
+                    </p>
+                    <button class="btn">COMPRAR</button>
+                </div>
+                <div class="product-item">
+                    <img src="imagens/carregador.png" alt="Produto 2">
+                    <h3>Estradas</h3>
+                    <p class="description">Design moderno e funcional.Super eficiente</p>
+                    <p class="price">R$  11.000,99<br> und.</p>
+                    <button class="btn">COMPRAR</button>
+                </div>
+                <div class="product-item">
+                    <img src="imagens/carregador-2.png" alt="Produto 3">
+                    <h3>Estacionamentos</h3>
+                    <p class="description">Alta qualidade com o melhor preço do mercado.</p>
+                    <p class="price">R$  14.000,99<br> und.</p>
+                    <button class="btn">COMPRAR</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="form-container2">
+
+
+        <h2>Entre em Contato Conosco</h2>
+
+
+        <form id="contact-form">
+
+
+            <div class="form-group">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" placeholder="Seu nome completo" required>
+
+                 </div>
+
+
+
+
+                <div class="form-group">
+
+                    <label for="email">E-mail:</label>
+
+
+                    <input type="email" id="email" name="email" placeholder="Seu melhor e-mail" required>
+
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Mensagem:</label>
+
+
+                    <textarea id="message" name="message" placeholder="Sua mensagem aqui" required></textarea>
+
+                </div>
+
+                <button type="submit">Enviar</button>
+
+        </form>
+
+        <div class="success-message" id="success-message">
+            Sua mensagem foi enviada com sucesso!
+
+            Sua mensagem foi enviada com sucesso!
+
+
+            Sua mensagem foi enviada com su
+
+            Sua mensagem foi
+
+            Su
+        </div>
+    </div>
+    <script>
+        document.getElementById('contact-form').addEventListener('submit', function (event) {
+            event.
+                event.
+                preventDefault(); // Impede o envio tradicional do formulário
+
+            // Exibe a mensagem de sucesso
+
+
+            document.getElementById('success-message').style.display = 'block';
+
+
+
+
+            // Limpa os campos do formulário
+
+
+            document.getElementById('contact-form').reset();
+        });
+    </script>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024| Kaua 1 info |Todos os direitos reservados|</p>
+        </div>
+    </footer>
+
+
+
+
+
+</body>
+
+</html>

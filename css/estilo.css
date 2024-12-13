@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000000;
+}
+
+.servico{
+   text-align: center;
+}
+
+header {
+    background-color:#2654A0;
+    color: white;
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    color:#2ecc71;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+nav ul {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+
+
+
+.titulo {
+    width: 50px;
+    height: 0px;
+    color: black;
+    font-size: 60px;
+    font-weight: 00px;
+    margin-left: 520px;
+    margin-top: 00px;
+    margin-top: -250px;
+    text-align: center
+}
+
+.Renovaveis {
+    padding-left: 300px;
+ 
+    margin-top: 10px;
+    color: #2654A0;
+}
+
+.Carros {
+
+    color: #249041;
+margin-top: 900%;
+    text-align: center;
+}
+
+hr {
+    width: 1000px;
+    margin-left: -100000;
+
+}
+
+.h2 {
+    height: 219px;
+    color: #249041;
+    font-size: 128px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.sobre {
+    margin-top: 700px;
+    font-size: 200%;
+    text-align: center;
+}
+
+#contato{
+    margin-top: 200px;
+    font-size: 200%;
+    text-align: center;
+}
+
+
+
+.logo {
+    border-radius: 50%;
+    width: 350px;
+    margin-top: 100px;
+
+}
+
+p {
+    font-size: 40px;
+    align-items: center;
+
+}
+
+.img_card {
+    width: 450px;
+    right: 240px;
+    align-items: center;
+}
+
+header {
+    background-color: #2654A0;
+  
+}
+
+#servicos{
+    margin-top: 300px;
+    font-size: 200%;
+    text-align: center;
+}
+.carregador3{
+    width: 100px;
+    right: 100px;
+    margin-left: 600px;
+    margin-top: 85px;
+}
+.t1{
+    margin-top: -500px;
+}
+.produto1{
+     text-align: center;
+    margin-top: 100px;
+    margin-right: 700px;
+}
+.carregador2{
+    width: 954px;
+  align-items: end;
+   
+    margin-top:83px;
+    padding: 0%;
+}
+h1{
+  text-align: center;
+}
+.acontecimento a{
+   align-items: center;
+} 
+ a:hover {
+    color: #249041;
+}
+
+.acontecimentos {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+
+.acontecimento {
+    width: 32%;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    margin-bottom: 20px;
+   margin-left: 33%;
+}
+
+.acontecimento:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.acontecimento img {
+    width: 40%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    object-fit: cover;
+    right: 210%;
+    align-items: center;
+    text-align: center;
+}
+
+
+.acontecimento p {
+    color: #333;
+}
+footer {
+    background-color:#2654A0;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+footer p {
+    font-size: 1rem;
+    color:#2ecc71;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+
+@media (max-width: 768px) {
+    .acontecimento {
+        width: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .acontecimento {
+        width: 100%;
+    }
+
+    nav ul li {
+        display: block;
+        margin-left: 0;
+    }
+}
+
